@@ -1,4 +1,4 @@
-# FOR NIX USERS
+# ⚠️ FOR NIX USERS ⚠️
 ## Currently only the `hue_ui` command works through `nix-shell`.
 Since that's the only one I plan to use, I'm not too worried about fixing the `hue` command. Open a PR or fork.
 # hue-plus
