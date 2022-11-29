@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "hue-plus"
+version = "1.4.5"
+description = "A Windows and Linux driver in Python for the NZXT Hue+"
+authors = ["Gustav Hansen"]
+license = "GPL-3.0"
+readme = "README.md"
+packages = [{include = "hue_plus"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+PyQt5 = "5.8.2"
+pyserial = "3.3"
+sip = "^6.7.5"
+appdirs = "1.4.3"
+pyaudio = "0.2.11"
+
+[tool.poetry.scripts]
+hue = "hue_plus.hue:main"
+hue_ui = "hue_plus.hue_ui:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

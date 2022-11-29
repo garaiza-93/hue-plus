@@ -1,0 +1,154 @@
+[[package]]
+name = "appdirs"
+version = "1.4.3"
+description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "packaging"
+version = "21.3"
+description = "Core utilities for Python packages"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+pyparsing = ">=2.0.2,<3.0.5 || >3.0.5"
+
+[[package]]
+name = "ply"
+version = "3.11"
+description = "Python Lex & Yacc"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyaudio"
+version = "0.2.11"
+description = "Bindings for PortAudio v19, the cross-platform audio input/output stream library."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyparsing"
+version = "3.0.9"
+description = "pyparsing module - Classes and methods to define and execute parsing grammars"
+category = "main"
+optional = false
+python-versions = ">=3.6.8"
+
+[package.extras]
+diagrams = ["jinja2", "railroad-diagrams"]
+
+[[package]]
+name = "pyqt5"
+version = "5.8.2"
+description = "Python bindings for the Qt cross platform UI and application toolkit"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyserial"
+version = "3.3"
+description = "Python Serial Port Extension"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "setuptools"
+version = "65.6.3"
+description = "Easily download, build, install, upgrade, and uninstall Python packages"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+docs = ["furo", "jaraco.packaging (>=9)", "jaraco.tidelift (>=1.4)", "pygments-github-lexers (==0.0.5)", "rst.linker (>=1.9)", "sphinx (>=3.5)", "sphinx-favicon", "sphinx-hoverxref (<2)", "sphinx-inline-tabs", "sphinx-notfound-page (==0.8.3)", "sphinx-reredirects", "sphinxcontrib-towncrier"]
+testing = ["build[virtualenv]", "filelock (>=3.4.0)", "flake8 (<5)", "flake8-2020", "ini2toml[lite] (>=0.9)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pip (>=19.1)", "pip-run (>=8.8)", "pytest (>=6)", "pytest-black (>=0.3.7)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=1.3)", "pytest-flake8", "pytest-mypy (>=0.9.1)", "pytest-perf", "pytest-timeout", "pytest-xdist", "tomli-w (>=1.0.0)", "virtualenv (>=13.0.0)", "wheel"]
+testing-integration = ["build[virtualenv]", "filelock (>=3.4.0)", "jaraco.envs (>=2.2)", "jaraco.path (>=3.2.0)", "pytest", "pytest-enabler", "pytest-xdist", "tomli", "virtualenv (>=13.0.0)", "wheel"]
+
+[[package]]
+name = "sip"
+version = "6.7.5"
+description = "A Python bindings generator for C/C++ libraries"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+packaging = "*"
+ply = "*"
+setuptools = "*"
+toml = "*"
+
+[[package]]
+name = "toml"
+version = "0.10.2"
+description = "Python Library for Tom's Obvious, Minimal Language"
+category = "main"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9.0"
+content-hash = "ed2fb97d79082290edb66d610898b9ab93831a2e485eefd80c893f934fbbbe3e"
+
+[metadata.files]
+appdirs = [
+    {file = "appdirs-1.4.3-py2.py3-none-any.whl", hash = "sha256:d8b24664561d0d34ddfaec54636d502d7cea6e29c3eaf68f3df6180863e2166e"},
+    {file = "appdirs-1.4.3.tar.gz", hash = "sha256:9e5896d1372858f8dd3344faf4e5014d21849c756c8d5701f78f8a103b372d92"},
+]
+packaging = [
+    {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
+    {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
+]
+ply = [
+    {file = "ply-3.11-py2.py3-none-any.whl", hash = "sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce"},
+    {file = "ply-3.11.tar.gz", hash = "sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3"},
+]
+pyaudio = [
+    {file = "PyAudio-0.2.11-cp27-cp27m-win32.whl", hash = "sha256:f78d543a98b730e64621ebf7f3e2868a79ade0a373882ef51c0293455ffa8e6e"},
+    {file = "PyAudio-0.2.11-cp27-cp27m-win_amd64.whl", hash = "sha256:259bb9c1363be895b4f9a97e320a6017dd06bc540728c1a04eb4a7b6fe75035b"},
+    {file = "PyAudio-0.2.11-cp34-cp34m-win32.whl", hash = "sha256:0d92f6a294565260a282f7c9a0b0d309fc8cc988b5ee5b50645634ab9e2da7f7"},
+    {file = "PyAudio-0.2.11-cp34-cp34m-win_amd64.whl", hash = "sha256:589bfad2c615dd4b5d3757e763019c42ab82f06fba5cae64ec02fd7f5ae407ed"},
+    {file = "PyAudio-0.2.11-cp35-cp35m-win32.whl", hash = "sha256:8f89075b4844ea94dde0c951c2937581c989fabd4df09bfd3f075035f50955df"},
+    {file = "PyAudio-0.2.11-cp35-cp35m-win_amd64.whl", hash = "sha256:cf1543ba50bd44ac0d0ab5c035bb9c3127eb76047ff12235149d9adf86f532b6"},
+    {file = "PyAudio-0.2.11-cp36-cp36m-win32.whl", hash = "sha256:51b558d1b28c68437b53218279110db44f69f3f5dd3d81859f569a4a96962bdc"},
+    {file = "PyAudio-0.2.11-cp36-cp36m-win_amd64.whl", hash = "sha256:2a19bdb8ec1445b4f3e4b7b109e0e4cec1fd1f1ce588592aeb6db0b58d4fb3b0"},
+    {file = "PyAudio-0.2.11.tar.gz", hash = "sha256:93bfde30e0b64e63a46f2fd77e85c41fd51182a4a3413d9edfaf9ffaa26efb74"},
+]
+pyparsing = [
+    {file = "pyparsing-3.0.9-py3-none-any.whl", hash = "sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"},
+    {file = "pyparsing-3.0.9.tar.gz", hash = "sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb"},
+]
+pyqt5 = [
+    {file = "PyQt5-5.8.2-5.8.0-cp35.cp36.cp37-abi3-macosx_10_6_intel.whl", hash = "sha256:2d259f5c1e78ebe2e0df517bdbafb573be8e4aea7efdc3a6477020a5f475c1cf"},
+    {file = "PyQt5-5.8.2-5.8.0-cp35.cp36.cp37-abi3-manylinux1_x86_64.whl", hash = "sha256:eb8ea061e688b91837c4d284d6345ea6ec89516738ee7ea74c3ada9866f01823"},
+    {file = "PyQt5-5.8.2-5.8.0-cp35.cp36.cp37-none-win32.whl", hash = "sha256:e6b6e45ef1cf2bb3bf95e3a360660c4dc6df1b50ed7777c8c92e7533cf1ece18"},
+    {file = "PyQt5-5.8.2-5.8.0-cp35.cp36.cp37-none-win_amd64.whl", hash = "sha256:f118e54f69f8477c90124ffbeea11690135745e48d6bdda6a3a0be8658fb65f0"},
+]
+pyserial = [
+    {file = "pyserial-3.3-py2.py3-none-any.whl", hash = "sha256:73ef7bcfe2c2238c13ce99bac7442f6df2c37620fb340c8135f057b1a3abcedd"},
+    {file = "pyserial-3.3.tar.gz", hash = "sha256:2949cddffc2b05683065a3cd2345114b1a49b08df8cb843d69ba99dc3e19edc2"},
+]
+setuptools = [
+    {file = "setuptools-65.6.3-py3-none-any.whl", hash = "sha256:57f6f22bde4e042978bcd50176fdb381d7c21a9efa4041202288d3737a0c6a54"},
+    {file = "setuptools-65.6.3.tar.gz", hash = "sha256:a7620757bf984b58deaf32fc8a4577a9bbc0850cf92c20e1ce41c38c19e5fb75"},
+]
+sip = [
+    {file = "sip-6.7.5-cp37-abi3-macosx_10_9_universal2.whl", hash = "sha256:986aeaeb0bcb2d984c0de3208194fea37704412bacafd9c867a99d9932ae6e36"},
+    {file = "sip-6.7.5-cp37-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:b4c03e9f4065dc3a48d8d68feb18ccffeed9e31c23f9cc78a2be3baac58ff87a"},
+    {file = "sip-6.7.5-cp37-abi3-win_amd64.whl", hash = "sha256:ee83b3b98e7e672d114370b9e4ce78685b9f349ed5f96e0f032a1dd8d9f0be74"},
+    {file = "sip-6.7.5.tar.gz", hash = "sha256:9655d089e1d0c5fbf66bde11558a874980729132b5bd0c2ae355ac1a7b893ab4"},
+]
+toml = [
+    {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
+    {file = "toml-0.10.2.tar.gz", hash = "sha256:b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"},
+]
