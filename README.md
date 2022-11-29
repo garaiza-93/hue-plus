@@ -1,5 +1,5 @@
 # ⚠️ FOR NIX USERS ⚠️
-## Currently only the `hue_ui` command works through `nix-shell`.
+## Currently only the `hue_ui` command works through `nix-shell` or `nix develop`.
 Since that's the only one I plan to use, I'm not too worried about fixing the `hue` command. Open a PR or fork.
 # hue-plus
 ## Now with custom LED, audio mode on Windows, turning on and off based on time, and a custom mode builder and a developer library, plus bug fixes!
